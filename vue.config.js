@@ -1,5 +1,5 @@
 module.exports = {
   configureWebpack: {
-    devtool: "nosources-source-map"
+    devtool: 'nosources-source-map'
   }
-};
+}

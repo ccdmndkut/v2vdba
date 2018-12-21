@@ -1,0 +1,41 @@
+{
+  "vetur.validation.template": false,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "editor.tabCompletion": "on",
+  "vetur.completion.useScaffoldSnippets": false,
+  "git.confirmSync": false,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "emmet.includeLanguages": {
+    "vue": "html"
+  },
+  "prettier.singleQuote": true,
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single",
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": true,
+      "wrapAttributes": true,
+      "sortAttributes": true
+    }
+  }
+}
